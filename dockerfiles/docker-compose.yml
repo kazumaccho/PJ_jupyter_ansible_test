@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ansible-jupyter:
+    image: ansible-jupyter-container:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - /workspace/:/workspace 
+      - /root/.ssh:/root/.ssh 
+    environment:
+      - JUPYTER_TOKEN=terachi
+    command: >
+      bash -c "jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=${JUPYTER_TOKEN}"
+
