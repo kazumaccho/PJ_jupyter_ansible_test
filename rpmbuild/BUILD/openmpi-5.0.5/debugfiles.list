@@ -1,0 +1,23 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/openmpi-5.0.5
+%dir /usr/lib/debug/usr/openmpi-5.0.5/bin
+%dir /usr/lib/debug/usr/openmpi-5.0.5/lib
+%dir /usr/lib/debug/usr/openmpi-5.0.5/lib/openmpi
+%dir /usr/lib/debug/.dwz
+/usr/lib/debug/usr/openmpi-5.0.5/bin/ompi_info-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/mpirun-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/prte-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/opal_wrapper-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/prte_info-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/prun-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/prted-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/bin/pterm-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libmpi_usempi_ignore_tkr.so.40.40.0-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libmpi_usempif08.so.40.40.2-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libmpi_mpifh.so.40.40.0-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libmpi.so.40.40.5-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libopen-pal.so.80.0.4-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/libprrte.so.3.0.6-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/usr/openmpi-5.0.5/lib/openmpi/libompi_dbg_msgq.so-5.0.5-1.el8.x86_64.debug
+/usr/lib/debug/.dwz/openmpi-5.0.5-1.el8.x86_64

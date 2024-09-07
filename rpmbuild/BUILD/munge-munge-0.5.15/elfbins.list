@@ -1,0 +1,6 @@
+.//opt/munge/0.5.15/bin/munge
+.//opt/munge/0.5.15/sbin/mungekey
+.//opt/munge/0.5.15/bin/remunge
+.//opt/munge/0.5.15/bin/unmunge
+.//opt/munge/0.5.15/sbin/munged
+.//opt/munge/0.5.15/lib/libmunge.so.2.0.0

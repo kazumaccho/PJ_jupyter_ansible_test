@@ -1,0 +1,21 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/hwloc
+%dir /usr/lib/debug/usr/hwloc/2.10.0
+%dir /usr/lib/debug/usr/hwloc/2.10.0/bin
+%dir /usr/lib/debug/usr/hwloc/2.10.0/sbin
+%dir /usr/lib/debug/usr/hwloc/2.10.0/lib
+%dir /usr/lib/debug/.dwz
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-annotate-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-diff-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-calc-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-bind-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-gather-cpuid-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-distrib-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-patch-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-info-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/hwloc-ps-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/bin/lstopo-no-graphics-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/sbin/hwloc-dump-hwdata-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/usr/hwloc/2.10.0/lib/libhwloc.so.15.7.0-2.10.0-1.el8.x86_64.debug
+/usr/lib/debug/.dwz/hwloc-2.10.0-1.el8.x86_64

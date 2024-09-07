@@ -1,0 +1,12 @@
+.//usr/hwloc/2.10.0/bin/hwloc-annotate
+.//usr/hwloc/2.10.0/bin/hwloc-distrib
+.//usr/hwloc/2.10.0/lib/libhwloc.so.15.7.0
+.//usr/hwloc/2.10.0/bin/hwloc-bind
+.//usr/hwloc/2.10.0/bin/hwloc-patch
+.//usr/hwloc/2.10.0/bin/hwloc-ps
+.//usr/hwloc/2.10.0/bin/hwloc-calc
+.//usr/hwloc/2.10.0/bin/hwloc-gather-cpuid
+.//usr/hwloc/2.10.0/bin/lstopo-no-graphics
+.//usr/hwloc/2.10.0/bin/hwloc-diff
+.//usr/hwloc/2.10.0/bin/hwloc-info
+.//usr/hwloc/2.10.0/sbin/hwloc-dump-hwdata

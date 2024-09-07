@@ -1,0 +1,15 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/opt
+%dir /usr/lib/debug/opt/munge
+%dir /usr/lib/debug/opt/munge/0.5.15
+%dir /usr/lib/debug/opt/munge/0.5.15/bin
+%dir /usr/lib/debug/opt/munge/0.5.15/lib
+%dir /usr/lib/debug/opt/munge/0.5.15/sbin
+%dir /usr/lib/debug/.dwz
+/usr/lib/debug/opt/munge/0.5.15/bin/unmunge-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/opt/munge/0.5.15/bin/munge-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/opt/munge/0.5.15/bin/remunge-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/opt/munge/0.5.15/lib/libmunge.so.2.0.0-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/opt/munge/0.5.15/sbin/mungekey-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/opt/munge/0.5.15/sbin/munged-0.5.15-1.el8.x86_64.debug
+/usr/lib/debug/.dwz/munge-0.5.15-1.el8.x86_64

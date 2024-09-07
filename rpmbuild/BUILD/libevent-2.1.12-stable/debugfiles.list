@@ -1,0 +1,12 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/libevent
+%dir /usr/lib/debug/usr/libevent/2.1.12
+%dir /usr/lib/debug/usr/libevent/2.1.12/lib
+%dir /usr/lib/debug/.dwz
+/usr/lib/debug/usr/libevent/2.1.12/lib/libevent_openssl-2.1.so.7.0.1-2.1.12-1.el8.x86_64.debug
+/usr/lib/debug/usr/libevent/2.1.12/lib/libevent_extra-2.1.so.7.0.1-2.1.12-1.el8.x86_64.debug
+/usr/lib/debug/usr/libevent/2.1.12/lib/libevent_core-2.1.so.7.0.1-2.1.12-1.el8.x86_64.debug
+/usr/lib/debug/usr/libevent/2.1.12/lib/libevent-2.1.so.7.0.1-2.1.12-1.el8.x86_64.debug
+/usr/lib/debug/usr/libevent/2.1.12/lib/libevent_pthreads-2.1.so.7.0.1-2.1.12-1.el8.x86_64.debug
+/usr/lib/debug/.dwz/libevent-2.1.12-1.el8.x86_64
