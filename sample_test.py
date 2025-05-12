@@ -1,37 +1,15 @@
-```python
-import unittest
+class Average():
+    def __init__(self, name, japanese, english):
+        self.__name = name
+        self.__japanese = japanese
+        self.__english = english
+        self.__average = self.__calculate_average()
 
+    def __calculate_average(self):
+        return (self.__japanese + self.__english) / 2
 
-class TestStringMethods(unittest.TestCase):
-    """
-    このクラスは、文字列メソッドのテストケースを提供します。
-    具体的には、文字列の大文字変換、'a'という文字の存在確認、
-    文字列の分割に関するテストを行います。
-    """
+    def get_name(self):
+        return self.__name
 
-    def test_upper(self):
-        """
-        文字列の大文字変換が正しく動作するかをテストします。
-        """
-        self.assertEqual('foo'.upper(), 'FOO')
-
-    def test_isupper(self):
-        """
-        文字列が全て大文字かどうかをテストします。
-        """
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
-
-    def test_split(self):
-        """
-        文字列の分割が正しく動作するかをテストします。
-        """
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        with self.assertRaises(TypeError):
-            s.split(2)
-
-
-if __name__ == '__main__':
-    unittest.main()
-```
+    def get_average(self):
+        return self.__average
