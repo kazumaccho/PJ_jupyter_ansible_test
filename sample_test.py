@@ -1,56 +1,66 @@
 ```python
 class Average:
     """
-    Averageクラスは、名前や日本語、英語を用いてその平均を計算する機能を提供します。
+    平均を計算するクラス。
+
+    このクラスは、与えられた日本語、英語、および他の科目の成績の
+    平均を計算し、成績と名前を保持するためのものです。
+    """
 
     Attributes:
-        _name (str): 任意の名前。
-        _japanese (float): 日本語の点数。
-        _english (float): 英語の点数。
-        _average (float): 日本語と英語の平均を表します。
+        _name (str): 生徒の名前
+        _japanese (float): 日本語の成績
+        _english (float): 英語の成績
+        _average (float): 平均の成績
+
     """
 
     def __init__(self, name, japanese, english):
         """
-        コンストラクタは、名前、日本語の点数、英語の点数を初期化し、
-        自動的に平均を計算します。
+        コンストラクタ。
+
+        生徒の名前と成績を初期化し、平均を計算します。
 
         Args:
-            name (str): 任意の名前。
-            japanese (float): 日本語の点数。
-            english (float): 英語の点数。
+            name (str): 生徒の名前
+            japanese (float): 日本語の成績
+            english (float): 英語の成績
         """
-        self.__name = name
-        self.__japanese = japanese
-        self.__english = english
-        self.__average = self.__calculate_average()
+        self._name = name
+        self._japanese = japanese
+        self._english = english
+        self._average = self._calculate_average()
 
-    def __calculate_average(self):
+    def _calculate_average(self):
         """
-        日本語と英語の点数の平均を計算するメソッド。
+        平均を計算するメソッド。
+
+        日本語および英語の成績の平均を計算します。
 
         Returns:
-            float: 日本語と英語の点数の平均。
+            float: 平均の成績
         """
-        return (self.__japanese + self.__english) / 2
+        return (self._japanese + self._english) / 2
 
     def get_name(self):
         """
-        オブジェクトの名前を取得するメソッド。
+        名前を取得するメソッド。
+
+        生徒の名前を返します。
 
         Returns:
-            str: オブジェクトの名前。
+            str: 生徒の名前
         """
-        return self.__name
+        return self._name
 
     def get_average(self):
         """
-        日本語と英語の点数の平均を取得するメソッド。
+        平均を取得するメソッド。
+
+        計算された平均の成績を返します。
 
         Returns:
-            float: 日本語と英語の点数の平均。
+            float: 平均の成績
         """
-        return self.__average
+        return self._average
 ```
-
-以上、Googleスタイルのdocstringを追加したコードです。全てのクラスとメソッドについて丁寧に説明を書きました。
